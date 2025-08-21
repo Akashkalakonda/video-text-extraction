@@ -1,8 +1,8 @@
-## Video Text Extraction
+# Video Text Extraction
 
 This project extracts text from videos by breaking them into frames, filtering unique frames, and applying Optical Character Recognition (OCR). It’s useful for analyzing lecture videos, extracting subtitles from recordings, or any case where you need text hidden inside a video.
 
-# 🚀 Features
+## 🚀 Features
 
 Extracts frames from a video file.
 
@@ -14,7 +14,7 @@ Saves extracted text into an output file.
 
 Lightweight and modular Python scripts.
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Python 3.8+
 
@@ -26,7 +26,7 @@ Tesseract OCR → for text extraction.
 
 pytesseract → Python wrapper for Tesseract.
 
-# 📂 Project Structure
+## 📂 Project Structure
 video-text-extraction/
 │
 ├── extract_frames.py         # Extracts frames from input video
@@ -47,7 +47,7 @@ unique_frames/ → Created after running filter_unique_frames.py. Contains only 
 
 output.txt → Generated after running ocr_unique_frames.py. Contains all recognized text from the video.
 
-# ⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 1. Clone the Repository
 git clone https://github.com/<your-username>/video-text-extraction.git
 cd video-text-extraction
@@ -68,7 +68,7 @@ Windows: Download installer → Tesseract at UB Mannheim
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-# ▶️ How to Run
+## ▶️ How to Run
 Step 1: Extract Frames from Video
 python extract_frames.py --input video.mp4 --output frames/
 
@@ -82,7 +82,7 @@ Step 4: View Extracted Text
 
 Open output.txt to see the extracted text.
 
-# 📝 Example Workflow
+## 📝 Example Workflow
 
 Place your video (video.mp4) inside the project folder.
 
@@ -96,7 +96,7 @@ unique_frames/ → smaller set of meaningful frames.
 
 output.txt → extracted subtitles/text.
 
-# 📌 Future Improvements
+## 📌 Future Improvements
 
 Improve OCR accuracy with preprocessing (grayscale, thresholding).
 
