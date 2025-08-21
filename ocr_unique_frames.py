@@ -3,7 +3,7 @@ from PIL import Image
 import pytesseract
 
 # Tell pytesseract where tesseract.exe is
-pytesseract.pytesseract.tesseract_cmd = r"C:\\Users\\Akash Kalakonda\\Desktop\\video-text-extraction\\tesseract\\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\\Users\\Akash Kalakonda\\Desktop\\video-text-extraction\\tesseract\\tesseract.exe" # repalce with your actual tessaract file path
 
 frames_folder = "unique_frames"
 output_file = "output.txt"
