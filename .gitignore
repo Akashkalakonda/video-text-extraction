@@ -1,0 +1,42 @@
+# Virtual environments
+venv/
+.env/
+video-text-venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Data and large files
+data/
+*.mp4
+*.avi
+test image 1.webp
+
+# Extracted frames
+frames/
+unique_frames/
+
+# OCR outputs
+tesseract/
+
+# Output/processed data
+output/
+results/
+output.txt
+
+# Logs & temp files
+*.log
+*.tmp
+*.swp
+
+# IDE settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
