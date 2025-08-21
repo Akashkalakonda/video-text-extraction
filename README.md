@@ -28,16 +28,19 @@ pytesseract → Python wrapper for Tesseract.
 
 ## 📂 Project Structure
 video-text-extraction/
-│
-├── extract_frames.py         # Extracts frames from input video
-├── filter_unique_frames.py   # Filters unique frames from extracted frames
-├── ocr_test.py               # Tests OCR on a single frame
-├── ocr_unique_frames.py      # Runs OCR on unique frames
-├── .gitignore                # Git ignore file
-│
-├── frames/                   # Stores all extracted frames
-├── unique_frames/            # Stores unique frames only
-├── output.txt                # Final text extracted from video
+```
+Project Structure:
+
+.
+├── extract_frames.py # Extracts frames from input video
+├── filter_unique_frames.py # Filters unique frames from extracted frames
+├── ocr_test.py # Tests OCR on a single frame
+├── ocr_unique_frames.py # Runs OCR on unique frames
+├── .gitignore # Git ignore file
+├── frames/ # Stores all extracted frames
+├── unique_frames/ # Stores unique frames only
+├── output.txt # Final text extracted from video
+```
 
 Folder & File Explanation
 
