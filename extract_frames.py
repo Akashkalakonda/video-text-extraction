@@ -2,7 +2,7 @@ import cv2
 import os
 
 # Path to your video
-video_path = "C:\\Users\\Akash Kalakonda\\Desktop\\video-text-extraction\\test video 1.mp4"  # Change to your actual video file
+video_path = "C:\\Users\\Akash Kalakonda\\Desktop\\video-text-extraction\\test video 1.mp4"  # Replace with your actual video file path
 
 # Output folder for frames
 output_folder = "frames"
